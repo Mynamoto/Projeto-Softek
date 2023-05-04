@@ -1,0 +1,32 @@
+body{
+	padding: 5 px;
+	text-align: center;
+	font-family: 'times new roman, arial, sans-serif;';
+	font-size: 18px;
+	background-color: #C0C0C0;
+}
+
+.logo{
+	font-size: 50px;
+	display: inline-block;
+	width: 60%;
+	float: left;
+	padding: 5px 5px 5px 5px;
+
+}
+
+
+.paragrafo1{
+	font-size: 18px;
+	display: inline;
+	width: 60%;
+	float: left;
+	
+}
+img{
+	padding: 5px;
+	float: right;
+	position: top;
+	width: ;
+	height: ;
+}

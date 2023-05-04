@@ -1,0 +1,236 @@
+/* parte inicial do site */
+body{
+	margin: 0;
+	padding: 0em;
+	text-align: center;
+	font-family: 'times new roman, arial, sans-serif;';
+	font-size: 18px;
+	background-color:#C0C0C0;
+	float: left;
+	max-width: none;
+}
+
+ Inicio 
+* {box-sizing:border-box}
+
+/*Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/*Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/*Position the "next button" to the right*/ 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+ /*On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+Caption text 
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+The dots/bullets/indicators 
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+Fading animation 
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+/*
+#geral{
+	width: 960px;
+	margin: 0 auto;
+	background: #ddd;
+}*/
+
+.row{
+	aspect-ratio: 3/2;
+	object-fit: contain;
+	width: 20%;
+	mix-blend-mode: color-burn;
+}
+
+
+.titulo{
+	margin: 0;
+	background-color: #4169E1;
+	font-family: times new roman, times,sans serif;
+	font-size: 50px;
+	padding: 5px 5px 5px 5px;
+	text-align: right;
+}
+
+img{
+	border-radius: 8px;
+	float: left;
+	margin-top: 15px;
+	aspect-ratio: 3/2;
+	object-fit: contain;
+	width: 15%;
+
+}
+.clip-path{
+clip-path: circle(50% at 50% 50%);
+float: right;
+}
+
+
+.lista{
+	text-decoration: none;
+	padding: 10px 10px 10px 10px;
+	background-color: #ADD8E6;
+}
+
+.Home{
+	border-top-left-radius:inherit ;
+	border-top-right-radius: initial;
+	border-bottom-right-radius:revert ;
+	border-top-left-radius:unset ;
+}
+
+h2{
+	font-size: 18px;
+	font-family: times new roman, times, sans-serif;
+	float: top;
+	padding: 2px 2px 2px 2px;
+}
+
+#conteudo-1{
+	float: left;
+	width: 240px;
+	padding: 0px 0px 0px 10px;
+	text-align: center;
+}
+
+#conteudo-2-1{
+	float: right;
+	width: 240px;
+	padding: 10px 10px 10px 10px;
+	
+}
+
+#texto1{
+	font-family: 'arial, times, sans-serif;';
+	font size: 18px;
+	text-align: justify;
+	text-indent: 50px;
+	/*text-orientation:use-glyph-orientation */;
+	writing-mode: lr-tb;
+	word-break: break-all;
+	border: 5px solid transparent;
+	background-clip: padding-box;
+
+}
+
+#foto{
+	max-width: 200px;
+	max-height: 200px;
+	float: right;
+}
+
+button{
+	padding: 10px 10px 10px 10px;
+	background: lightgray;
+	outline: none;
+	border: none;
+	border-radius: 8px 8px 8px 8px;
+}
+h2{
+	padding: 2px 2px 2px 2px;
+	text-align: center;
+
+}
+#manutencao{
+	width: 130px;
+	height: 76px;
+	padding: 10px 10px 10px 10px;
+	float: left;
+
+}
+#contatos{
+	font-family: arial, times, sans-serif;
+	text-align: center;
+	margin: 0;
+	border: 2px solid red;
+	border-width: 2px;
+	border
+}
+#Telefone{
+	font-family: arial, times, sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin: 0;
+	border:2px ;
+	background: 0px;
+}
+#rodape{
+	clear: both;
+	background: #ff9;
+}
